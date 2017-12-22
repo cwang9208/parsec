@@ -92,10 +92,10 @@ cd parsec-2.0/bin
 ./parsecmgmt -a build -p facesim
 ./parsecmgmt -a build -p swaptions
 ./parsecmgmt -a build -p fluidanimate
-./parsecmgmt -a build -p vips
-./parsecmgmt -a build -p x264
+./parsecmgmt -a build -p vips # Image processing
+./parsecmgmt -a build -p x264 # H.264 video encoding
 ./parsecmgmt -a build -p canneal
-./parsecmgmt -a build -p dedup
+./parsecmgmt -a build -p dedup # It compresses a data stream with a combination of global compression and local compression in order to achieve high compression ratios
 ./parsecmgmt -a build -p streamcluster
 ./parsecmgmt -a build -p raytrace
 ./parsecmgmt -a build -p ferret
